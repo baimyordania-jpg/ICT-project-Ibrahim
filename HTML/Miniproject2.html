@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniproject2</title>
+</head>
+<>
+    <h1>Daftar Koleksi Buku Perpustakaan</h1>
+    <h2>Koleksi Buku Saat Ini</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Judul Buku</th>
+                <th>Penulis  </th>
+                <th>Tahun Terbit  </th>
+                <th>Jumlah Halaman  </th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Berpikir Luas</td>
+                <td>Rasya al-Huda</td>
+                <td>2075</td>
+                <td>350</td>
+                <td>Edukasi</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Spider-man 2099</td>
+                <td>Ibrahim Ganteng</td>
+                <td>2067</td>
+                <td>999</td>
+                <td>Semua Genre</td>
+            </tr>
+            <tr>
+                <td>3. </td>
+                <td>Mengenali Coding</td>
+                <td>Muzzafar Faiq</td>
+                <td>2086</td>
+                <td>10000</td>
+                <td>Horor</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Tambah Buku Baru</h2>
+    <form>
+        <table>
+            <tr>
+                <td>Judul Buku:</td>
+                <td><input type="text" name="judulbuku" placeholder="Masukkan judul buku" required></td>
+            </tr>
+            <tr>
+                <td>Penulis:</td>
+                <td><input type="text" name="Penulis" placeholder="Masukkan nama penulis" required></td><br>
+            </tr>
+            <tr>
+                <td>Tahun Terbit:</td>
+                <td><input type="number" name="tahunterbit" placeholder="eg:2022" required></td><br>
+            </tr>
+            <tr>
+                <td>Jumlah Halaman:</td>
+                <td><input type="number" name="halaman" placeholder="eg: 250" required></td><br>
+            </tr>
+            <tr>
+                <td>Genre:</td>
+                <td><select name="genre" id="">
+                    <Option>Romansa</Option>
+                    <option>Edukasi</option>
+                    <option>Olahraga</option>
+                </select></td>
+            <tr>
+                <td></td>
+            <td><button type="submit">Tambahkan Buku</button></td>
+            </tr>
+        </table>
+    </form>
+
+    <h3>Syarat Penulisan Pada Folmulir</h3>
+    <ul>
+        <li><b>Judul Buku:</b>Harus diisi Maksimal 100 karakter</li>
+        <li><b>Penulis:</b>Harus diisi Nama lengkap penulis Maksimal 70 karakter</li>
+        <li><b>Tahun Terbit:</b>Harus diisi Berupa angka tahun (eg.2020). Minimal 1000, maksimal tahun saat ini 2025.</li>
+        <li><b>Jumlah Halaman:</b>Harus diisi Berupa angka jumlah halaman. Minimal 1 halaman</li>
+        <li><b>Genre:</b>Harus dipilih dari daftar yang tersedia</li>
+    </ul>
+</body>
+</html>
